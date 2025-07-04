@@ -2,8 +2,8 @@ from telethon import TelegramClient, functions, errors
 import asyncio
 import logging
 
-api_id = 20446705
-api_hash = '0dab7a92ce730c88da8cb87c7adb9228'
+api_id = 123456  # <-- Вставьте свой api_id
+api_hash = 'your_api_hash'  # <-- Вставьте свой api_hash
 session = 'my_userbot'  # session-файл, не удаляйте его после первого запуска!
 
 names = [
