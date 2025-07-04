@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Userbot: Auto Change Name
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root
+ExecStart=/root/userbot_venv/bin/python3 /root/change_name.py
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target 
